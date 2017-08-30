@@ -1,0 +1,135 @@
+.single-product{
+  display: none;
+}
+.single-b{
+  display: none;
+}
+.single{
+  img{
+    width: 100%;
+  }
+}
+.single-text{
+    border-top: 3px solid rgb(49, 49, 49) !important;
+  >span{
+    width: 100%;
+    float: left;
+    font-size: 13.7px;
+    color: rgb(125, 125, 125);
+    padding-bottom: 20px;
+  }
+  span:first-child{
+    padding-top: 25px;
+    padding-bottom: 12px;
+    font-size: 16.81px;
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+  }
+  p{
+    font-size: 10.7px;
+    color: rgb(125, 125, 125);
+  }
+}
+.single-select{
+  padding-top: 20px;
+  span{
+    width: 100%;
+    float: left;
+    font-size: 9.71px;
+    font-weight: bold;
+  }
+  button{
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-color: rgb(125, 125, 125);
+    border-radius: 0px;
+    font-size: 9.71px;
+    padding: 2px 2px !important;
+  }
+  button:last-child{
+    border-color: rgb(113, 197, 198);
+  }
+}
+.single-card{
+  padding-top: 16px;
+  button{
+    background-color: #fff;
+    font-size: 9.71px;
+    border-color: rgb(113, 197, 198);
+    border-radius: 0px;
+    margin-bottom: 25px;
+  }
+  span{
+    width: 100%;
+    font-size: 9.71px;
+    font-weight: 400;
+  }
+  p:first-child{
+    float: left;
+    padding-top:25px;
+  }
+}
+@media only screen and (min-width: 1024px){
+  .single-s{
+    display: none;
+  }
+  .single-b{
+    display: block;
+  }
+  .single{
+    padding-top:75px;
+    margin-left: 112px;
+    img{
+      width: 45%;
+      float: left;
+    }
+  }
+  .single-text{
+    width: 389px;
+    float: left;
+    >span{
+      padding-left: 33px;
+      width: 100%;
+      font-size: 18px;
+      padding-bottom: 20px;
+    }
+    span:first-child{
+      padding-top: 25px;
+      padding-bottom: 12px;
+      font-size: 22px;
+    }
+    p{
+      padding-left: 33px;
+      padding-right: 15px;
+      font-size: 14px;
+    }
+  }
+  .single-select{
+    padding-left: 33px;
+    span{
+      font-size: 12px !important;
+    }
+    button{
+      width: 28px;
+      height: 28px;
+      font-size: 17px;
+      margin-right: 10px;
+    }
+  }
+  .single-card{
+    padding-top: 21px;
+    button{
+      width: 168px;
+      height: 33px;
+      font-size: 12px;
+      margin-bottom: 35px;
+      margin-left: 33px;
+    }
+    span{
+      width: 100%;
+      font-size: 9.71px;
+      font-weight: 400;
+    }
+  }
+}
