@@ -83,13 +83,13 @@ $(document).ready(function(){
 
 
   $('.li-single').bind('click', function(){
-    if(reduserHead !='.single'){
+    if(reduserHead !='.single-product'){
 
       setTimeout (function(){
         $(reduserHead).fadeOut('slow','linear');
       }, 1500);
       setTimeout (function(){
-        $('.single').fadeIn('slow','linear');
+        $('.single-product').fadeIn('slow','linear');
       }, 1550);
 
 
@@ -102,8 +102,8 @@ $(document).ready(function(){
       }, 3500);
 
       setTimeout (function(){
-        reduserHead = '.single';
-        reduserBotton='.single';
+        reduserHead = '.single-product';
+        reduserBotton='.single-product';
       }, 3800);
     }
 });
