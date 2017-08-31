@@ -10,7 +10,7 @@
   }
 }
 .single-text{
-    border-top: 3px solid rgb(49, 49, 49) !important;
+    border-top: 3px solid rgb(49, 49, 49);
   >span{
     width: 100%;
     float: left;
@@ -45,7 +45,7 @@
     border-color: rgb(125, 125, 125);
     border-radius: 0px;
     font-size: 9.71px;
-    padding: 2px 2px !important;
+    padding: 2px 2px;
   }
   button:last-child{
     border-color: rgb(113, 197, 198);

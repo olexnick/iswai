@@ -1,146 +1,141 @@
 $(document).ready(function(){
 
-  let reduserHead = '.home';
-  let reduserBotton = '.home-botton';
+  let reducerHead = '.home';
+  let reducerBottom = '.home-bottom';
 
   $('.li-home').bind('click', function(){
-    if(reduserHead != '.home'){
-      $(reduserHead).slideUp(3000);
+    if(reducerHead != '.home'){
+      $(reducerHead).slideUp(3000);
       setTimeout (function(){
         $('.home').slideDown(3000);
       }, 3010);
       setTimeout (function(){
-        $(reduserBotton).fadeOut(1000);
+        $(reducerBottom).fadeOut(1000);
       }, 3500);
       setTimeout (function(){
-        $('.home-botton').fadeIn('slow','linear');
+        $('.home-bottom').fadeIn('slow','linear');
       }, 3550);
       setTimeout (function(){
-        reduserHead = '.home';
-        reduserBotton='.home-botton';
+        reducerHead = '.home';
+        reducerBottom='.home-bottom';
       }, 3800);
     }
   });
 
     $('.li-product').bind('click', function(){
-      if(reduserHead != '.product'){
-        $(reduserHead).slideUp(3000);
+      if(reducerHead != '.product'){
+        $(reducerHead).slideUp(3000);
         setTimeout (function(){
           $('.product').slideDown(3000);
         }, 3010);
         setTimeout (function(){
-          $(reduserBotton).fadeOut(1000);
+          $(reducerBottom).fadeOut(1000);
         }, 3500);
         setTimeout (function(){
           $('.product-bottom').fadeIn('slow','linear');
         }, 3550);
         setTimeout (function(){
-          reduserHead = '.product';
-          reduserBotton='.product-bottom';
+          reducerHead = '.product';
+          reducerBottom='.product-bottom';
         }, 3800);
       }
     });
 
     $('.li-blog').bind('click', function(){
-      if(reduserHead !='.blog'){
-        $(reduserHead).slideUp(3000);
+      if(reducerHead !='.blog'){
+        $(reducerHead).slideUp(3000);
         setTimeout (function(){
           $('.blog').slideDown(3000);
         }, 3010);
         setTimeout (function(){
-          $(reduserBotton).fadeOut(1000);
+          $(reducerBottom).fadeOut(1000);
         }, 3500);
         setTimeout (function(){
-          reduserHead = '.blog';
-          reduserBotton='.blog';
+          reducerHead = '.blog';
+          reducerBottom='.blog';
         }, 3800);
       }
     });
 
   $('.li-single').bind('click', function(){
-    if(reduserHead !='.single-product'){
+    if(reducerHead !='.single-product'){
 
       setTimeout (function(){
-        $(reduserHead).fadeOut('slow','linear');
+        $(reducerHead).fadeOut('slow','linear');
       }, 1500);
       setTimeout (function(){
         $('.single-product').fadeIn('slow','linear');
       }, 1550);
       setTimeout (function(){
-        $(reduserBotton).fadeOut(1000);
+        $(reducerBottom).fadeOut(1000);
       }, 3500);
       setTimeout (function(){
-        reduserHead = '.single-product';
-        reduserBotton='.single-product';
+        reducerHead = '.single-product';
+        reducerBottom='.single-product';
       }, 3800);
     }
   });
 
   $('.homePage').bind('click', function(){
-    if(reduserHead != '.home'){
+    if(reducerHead != '.home'){
       setTimeout (function(){
-        $(reduserHead).hide();
-        $(reduserBotton).hide();
-      }, 1500);
+        $(reducerHead).hide();
+        $(reducerBottom).hide();
+      }, 200);
       setTimeout (function(){
         $('.home').show();
-        $('.home-botton').show();
-      }, 1500);
+        $('.home-bottom').show();
+      }, 200);
       setTimeout (function(){
-        reduserHead = '.home';
-        reduserBotton='.home-botton';
-      }, 3800);
+        reducerHead = '.home';
+        reducerBottom='.home-bottom';
+      }, 1000);
     }
   });
   $('.productPage').bind('click', function(){
-    if(reduserHead != '.product'){
+    if(reducerHead != '.product'){
       setTimeout (function(){
-        $(reduserHead).hide();
-        $(reduserBotton).hide();
-      }, 1500);
+        $(reducerHead).hide();
+        $(reducerBottom).hide();
+      }, 200);
       setTimeout (function(){
         $('.product').show();
         $('.product-bottom').show();
-      }, 1500);
+      }, 200);
       setTimeout (function(){
-        reduserHead = '.product';
-        reduserBotton='.product-bottom';
-      }, 3800);
+        reducerHead = '.product';
+        reducerBottom='.product-bottom';
+      }, 1000);
     }
   });
   $('.blogPage').bind('click', function(){
-    if(reduserHead != '.blog'){
+    if(reducerHead != '.blog'){
       setTimeout (function(){
-        $(reduserHead).hide();
-        $(reduserBotton).hide();
-      }, 1500);
+        $(reducerHead).hide();
+        $(reducerBottom).hide();
+      }, 200);
       setTimeout (function(){
         $('.blog').show();
-      }, 1500);
+      }, 200);
       setTimeout (function(){
-        reduserHead = '.blog';
-        reduserBotton='.blog';
-      }, 3800);
+        reducerHead = '.blog';
+        reducerBottom='.blog';
+      }, 1000);
     }
   });
   $('.singlePage').bind('click', function(){
-    if(reduserHead != '.single-product'){
+    if(reducerHead != '.single-product'){
       setTimeout (function(){
-        $(reduserHead).hide();
-        $(reduserBotton).hide();
-      }, 1500);
+        $(reducerHead).hide();
+        $(reducerBottom).hide();
+      }, 200);
       setTimeout (function(){
         $('.single-product').show();
-      }, 1500);
+      }, 200);
       setTimeout (function(){
-        reduserHead = '.single-product';
-        reduserBotton='.single-product';
-      }, 3800);
+        reducerHead = '.single-product';
+        reducerBottom='.single-product';
+      }, 1000);
     }
   });
-
-// setInterval (function(){
-//     console.log(reduserHead,'reduserHead');
-//     console.log(reduserBotton,'reduserBotton');
-// }, 10000);
 });

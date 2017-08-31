@@ -1,20 +1,20 @@
 .home-left{
-  min-height: 0px !important;
+  min-height: 0px;
 }
 .home-right{
-  min-height: 0px !important;
+  min-height: 0px;
 }
 .content-top-left{
-  padding-left: 0px !important;
-  padding-right: 0px !important;
+  padding-left: 0px;
+  padding-right: 0px;
   position: relative;
   img{
     width: 100%;
   }
 }
 .content-top-right{
-  padding-left: 0px !important;
-  padding-right: 0px !important;
+  padding-left: 0px;
+  padding-right: 0px;
   img{
     width: 100%;
   }
@@ -100,9 +100,9 @@
 }
 @media only screen and (min-width: 1200px){
   .home-left{
-    min-height: 1px !important;
+    min-height: 1px;
   }
   .home-right{
-    min-height: 1px !important;
+    min-height: 1px;
   }
 }
